@@ -1,0 +1,26 @@
+# Bytecode
+__pycache__/
+*.pyc
+
+# Env + secrets
+.env
+
+# VS Code runner
+tempCodeRunnerFile.py
+
+# Runtime media
+user_uploads/*
+!user_uploads/
+!user_uploads/.gitkeep
+
+static/reels/*
+!static/reels/
+!static/reels/.gitkeep
+
+# Runtime logs
+done.txt
+ffmpeg_command.txt
+sample_input_ffmpeg.txt
+
+# songs
+static/songs/*
